@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import ben from '../assetts/img/profile.jpeg';
 
 import { Container, SectionTitle } from '../styles/styledComponents';
+import { about } from '../constants/aboutInfo';
+
 
 const styles = {
 	profile: styled.img`
@@ -21,7 +23,7 @@ export default class About extends Component {
 			<Container id='about'>
 				<SectionTitle>About</SectionTitle>
 				<styles.profile src={ben}/>
-				<styles.aboutContentText>This is the about me section</styles.aboutContentText>
+				<styles.aboutContentText>{about}</styles.aboutContentText>
 			</Container>
 		);
 	}
