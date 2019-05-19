@@ -2,7 +2,7 @@
   "name": "about",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ben-kirby.github.io/about/",
+  "homepage": "https://ben-kirby.github.io/about/build",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
