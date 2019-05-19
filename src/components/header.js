@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import { Container } from '../styles/styledComponents';
+
 const styles = {
 	container: styled.div`
 		display: flex;
@@ -15,21 +17,25 @@ const styles = {
 		flex direction: row;
 		justify-content: space-evenly;
 	`,
+	headerLink: styled.a`
+		color: black;
+		
+	`,
 }
 
 export default class Header extends Component {
 	render() {
 		return(
-			<styles.container>
+			<Container style={{width: '50%'}}>
 				<styles.title>Ben Kirby</styles.title>
 				<styles.navigation>
-					<p>1</p>
-					<p>2</p>
-					<p>3</p>
-					<p>4</p>
-
+					<styles.headerLink href='#about'>About</styles.headerLink>
+					<styles.headerLink href='#background'>Background</styles.headerLink>
+					<styles.headerLink href='#work'>Work</styles.headerLink>
+					<styles.headerLink href='#interests'>Interests</styles.headerLink>
+					<styles.headerLink href='#contact'>Contact</styles.headerLink>
 				</styles.navigation>
-			</styles.container>
+			</Container>
 		);
 	}
 } 
