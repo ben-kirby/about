@@ -16,6 +16,7 @@ const styles = {
 		display: flex;
 		flex direction: row;
 		justify-content: space-evenly;
+		width: 100%;
 	`,
 	headerLink: styled.a`
 		color: black;
@@ -26,7 +27,7 @@ const styles = {
 export default class Header extends Component {
 	render() {
 		return(
-			<Container style={{width: '50%'}}>
+			<Container>
 				<styles.title>Ben Kirby</styles.title>
 				<styles.navigation>
 					<styles.headerLink href='#about'>About</styles.headerLink>
