@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import ben from '../assetts/img/profile.jpeg';
+import ben from '../assets/img/profile.jpeg';
 
 import { Container, SectionTitle } from '../styles/styledComponents';
 import { about } from '../constants/aboutInfo';
