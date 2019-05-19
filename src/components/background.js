@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import { Container, SectionTitle } from '../styles/styledComponents';
 
 const styles = {
+	content: styled.p`
+	
+	`,
 }
 
 export default class Background extends Component {
