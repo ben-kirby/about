@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import bgImage from './assets/img/background.png';
 
 import Header from './components/header';
 import About from './components/about';
@@ -13,14 +14,19 @@ const styles = {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: bisque;
     align-items: center;
   `,
+  backgroundImage: {
+    backgroundImage: `url(${bgImage})`,
+    backgroundAttachment: 'fixed',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+  }
 }
 
 function App() {
   return (
-    <styles.appContainer>
+    <styles.appContainer style={styles.backgroundImage}>
       <Header/>
       <About/>
       <Background/>
