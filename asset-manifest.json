@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/about/build/static/css/main.34de6062.chunk.css",
-    "main.js": "/about/build/static/js/main.ea406777.chunk.js",
-    "main.js.map": "/about/build/static/js/main.ea406777.chunk.js.map",
-    "runtime~main.js": "/about/build/static/js/runtime~main.8cb4aa54.js",
-    "runtime~main.js.map": "/about/build/static/js/runtime~main.8cb4aa54.js.map",
-    "static/js/2.0fc9b1ea.chunk.js": "/about/build/static/js/2.0fc9b1ea.chunk.js",
-    "static/js/2.0fc9b1ea.chunk.js.map": "/about/build/static/js/2.0fc9b1ea.chunk.js.map",
-    "index.html": "/about/build/index.html",
-    "precache-manifest.605e2ab3b795e8346d3295f52146c112.js": "/about/build/precache-manifest.605e2ab3b795e8346d3295f52146c112.js",
-    "service-worker.js": "/about/build/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/about/build/static/css/main.34de6062.chunk.css.map",
-    "static/media/background.png": "/about/build/static/media/background.eb4e2bfb.png",
-    "static/media/profile.jpeg": "/about/build/static/media/profile.10841724.jpeg"
+    "main.css": "/about/static/css/main.34de6062.chunk.css",
+    "main.js": "/about/static/js/main.6ed42527.chunk.js",
+    "main.js.map": "/about/static/js/main.6ed42527.chunk.js.map",
+    "runtime~main.js": "/about/static/js/runtime~main.c0e869d3.js",
+    "runtime~main.js.map": "/about/static/js/runtime~main.c0e869d3.js.map",
+    "static/js/2.b5e7196c.chunk.js": "/about/static/js/2.b5e7196c.chunk.js",
+    "static/js/2.b5e7196c.chunk.js.map": "/about/static/js/2.b5e7196c.chunk.js.map",
+    "index.html": "/about/index.html",
+    "precache-manifest.ce273333ca83629922671322d7734b91.js": "/about/precache-manifest.ce273333ca83629922671322d7734b91.js",
+    "service-worker.js": "/about/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/about/static/css/main.34de6062.chunk.css.map",
+    "static/media/background.png": "/about/static/media/background.eb4e2bfb.png",
+    "static/media/profile.jpeg": "/about/static/media/profile.10841724.jpeg"
   }
 }
