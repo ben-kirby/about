@@ -28,3 +28,30 @@ export const background = [
 	}
 ];
 
+export const work = [
+	{
+		title: 'Urban Farmer',
+		github: 'https://github.com/ben-kirby/Urban-Farmer',
+		description: 'urban farmer'
+	},
+	{
+		title: 'Messenger Hunt',
+		github: 'https://github.com/ben-kirby/messenger_hunt',
+		description: 'messenger hunt'
+	},
+	{
+		title: 'Quizzle Me Timbers',
+		github: 'https://github.com/ben-kirby/quizzle-me-timbers',
+		description: 'quizzle'
+	},
+	{
+		title: 'Lift',
+		github: 'https://github.com/ben-kirby/Lift',
+		description: 'lift'
+	},
+	{
+		title: 'Pollster',
+		github: 'https://github.com/ben-kirby/pollster',
+		description: 'pollster'
+	}
+];
