@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router';
 
 import linkedIn from '../assets/icons/in.png';
 import github from '../assets/icons/gh.png';
