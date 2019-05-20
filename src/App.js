@@ -11,6 +11,7 @@ import Contact from './components/contact';
 
 const styles = {
   appContainer: styled.div`
+    padding: 5% 0 5% 0;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -19,7 +20,7 @@ const styles = {
   backgroundImage: {
     backgroundImage: `url(${bgImage})`,
     backgroundAttachment: 'fixed',
-    backgroundPosition: 'center',
+    backgroundPosition: 'fixed',
     backgroundSize: 'cover',
   }
 }
