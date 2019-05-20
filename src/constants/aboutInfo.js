@@ -9,22 +9,54 @@ export const background = [
 		title: 'Operations Specialist',
 		company: 'ShopKeep',
 		description: 'things',
-		start: 'start',
-		end: 'end'
+		start: '5/2018',
+		end: '11/2018'
 	},
 	{
 		title: 'Senior Advisor',
 		company: 'ShopKeep',
 		description: 'things',
-		start: 'start',
-		end: 'end'
+		start: '8/2017',
+		end: '5/2018'
 	},
 	{
 		title: 'Customer Care Advisor',
 		company: 'ShopKeep',
 		description: 'things',
-		start: 'start',
-		end: 'end'
+		start: '5/2016',
+		end: '8/2017'
+	}
+];
+
+export const education = [
+	{
+		school: 'Epicodus',
+		degree: 'Full Stack Development',
+		end: '2019'
+	},
+	{
+		school: 'Portland State University',
+		degree: 'BS, Science',
+		end: '2015'
+	}
+];
+
+export const skills = [
+	{
+		type: 'Libraries',
+		detail: 'ReactJS, React Native'
+	},
+	{
+		type: 'Frameworks',
+		detail: 'Angular, Rails'
+	},
+	{
+		type: 'Languages',
+		detail: 'Ruby, JavaScript, TypeScript, HTML, CSS, SQL, NoSQL'
+	},
+	{
+		type: 'Other',
+		detail: 'Agile Development, Jira, Pair Programming, TDD, Git, GitHub, BitBucket'
 	}
 ];
 
