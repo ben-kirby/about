@@ -24,7 +24,7 @@ export default class Work extends Component {
 					{work.map((bit) => {
 						return(
 							<WorkBit
-								index={v4()}
+								key={v4()}
 								bit={bit}
 							/>
 						);
