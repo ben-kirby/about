@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import bgImage from './assets/img/background.png';
+import bgImage from './assets/img/background.svg';
 
 import Header from './components/header';
 import About from './components/about';
