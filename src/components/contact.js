@@ -9,7 +9,7 @@ import { Container, SectionTitle } from '../styles/styledComponents';
 const styles = {
 	contactContainer: styled.div`
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 		width: 50%;
 	`,
 
@@ -20,13 +20,16 @@ const styles = {
 		width: 40px;
 		height: 40px;
 	`,
+	containerOverride: {
+		padding: '25px'
+	},
 	
 };
 
 export default class Contact extends Component{
 	render() {
 		return(
-			<Container id='contact'>
+			<Container id='contact' style={{paddingBottom: '25px'}}>
 				<SectionTitle>Contact</SectionTitle>
 					<styles.info>benkrby@gmail.com</styles.info>
 					<styles.info>503.737.9272</styles.info>
