@@ -7,7 +7,11 @@ import { about } from '../constants/aboutInfo';
 
 const styles = {
 	aboutContentText: styled.p`
-		width: 75%;
+		border-radius: 3px;
+		background: rgba(255, 255, 255, 0.5);
+		padding 10px;
+		margin: 10px 10px 25px 10px;
+		width: inherit;
 		justify-content: center;	
 	`,
 }
