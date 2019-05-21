@@ -11,7 +11,10 @@ const styles = {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-evenly;
+		width: inherit;
+		margin: 10px 5px 25px 5px;
+
 	`,
 }
 
