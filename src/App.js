@@ -6,7 +6,6 @@ import Header from './components/header';
 import About from './components/about';
 import Work from './components/work';
 import Background from './components/background';
-import Interests from './components/interests';
 import Contact from './components/contact';
 
 const styles = {
@@ -32,7 +31,6 @@ function App() {
       <About/>
       <Background/>
       <Work/>
-      <Interests/>
       <Contact/>
     </styles.appContainer>
   );
