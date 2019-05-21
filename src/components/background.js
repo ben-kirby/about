@@ -10,8 +10,6 @@ import { Container, SectionTitle } from '../styles/styledComponents';
 import { background, education, skills } from '../constants/aboutInfo';
 
 const styles = {
-	containerOverride: {
-	},
 	bitSection: styled.div`
 		display: flex;
 		flex-wrap: wrap;
@@ -22,11 +20,12 @@ const styles = {
 		display: flex;
 		flex-direction: column;
 		padding 10px;
-		margin: 10px 5px 0 5px;
+		margin: 10px 5px 25px 5px;
 		background: rgba(255, 255, 255, 0.5);
 		width: 33%;
 		min-width: 225px;
 		max-width: 250px;
+		border-radius: 3px;
 	`,
 }
 
