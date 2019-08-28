@@ -6,6 +6,13 @@ export const about = 'After graduating from Portland State University in 2015 I 
 
 export const background = [
 	{
+		title: 'Developer',
+		company: 'Serverless Guru',
+		description: 'things',
+		start: '7/2019',
+		end: 'Current'
+	},
+	{
 		title: 'Intern',
 		company: 'DevelopmentNow',
 		description: 'things',
